@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68DAAB31485699800BBCB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB21485699800BBCB7F /* UIKit.framework */; };
+		C68DAAB51485699800BBCB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB41485699800BBCB7F /* Foundation.framework */; };
+		C68DAAB71485699800BBCB7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB61485699800BBCB7F /* CoreGraphics.framework */; };
+		C68DAABD1485699800BBCB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68DAABB1485699800BBCB7F /* InfoPlist.strings */; };
+		C68DAAC01485699800BBCB7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DAABF1485699800BBCB7F /* main.m */; };
+		C68DAAC31485699800BBCB7F /* SocialUnifyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DAAC21485699800BBCB7F /* SocialUnifyAppDelegate.m */; };
+		C68DAAC61485699800BBCB7F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68DAAC41485699800BBCB7F /* MainWindow.xib */; };
+		C68DAAC91485699800BBCB7F /* SocialUnifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DAAC81485699800BBCB7F /* SocialUnifyViewController.m */; };
+		C68DAACC1485699800BBCB7F /* SocialUnifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68DAACA1485699800BBCB7F /* SocialUnifyViewController.xib */; };
+		C68DAAD31485699800BBCB7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB21485699800BBCB7F /* UIKit.framework */; };
+		C68DAAD41485699800BBCB7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB41485699800BBCB7F /* Foundation.framework */; };
+		C68DAAD51485699800BBCB7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DAAB61485699800BBCB7F /* CoreGraphics.framework */; };
+		C68DAADD1485699800BBCB7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C68DAADB1485699800BBCB7F /* InfoPlist.strings */; };
+		C68DAAE01485699800BBCB7F /* SocialUnifyTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C68DAADF1485699800BBCB7F /* SocialUnifyTests.h */; };
+		C68DAAE21485699800BBCB7F /* SocialUnifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C68DAAE11485699800BBCB7F /* SocialUnifyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C68DAAD61485699800BBCB7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C68DAAA51485699800BBCB7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68DAAAD1485699800BBCB7F;
+			remoteInfo = SocialUnify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C68DAAAE1485699800BBCB7F /* SocialUnify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialUnify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68DAAB21485699800BBCB7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C68DAAB41485699800BBCB7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C68DAAB61485699800BBCB7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C68DAABA1485699800BBCB7F /* SocialUnify-Info.plist */ = {isa = PBXFileReference; path = "SocialUnify-Info.plist"; sourceTree = "<group>"; };
+		C68DAABC1485699800BBCB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68DAABE1485699800BBCB7F /* SocialUnify-Prefix.pch */ = {isa = PBXFileReference; path = "SocialUnify-Prefix.pch"; sourceTree = "<group>"; };
+		C68DAABF1485699800BBCB7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C68DAAC11485699800BBCB7F /* SocialUnifyAppDelegate.h */ = {isa = PBXFileReference; path = SocialUnifyAppDelegate.h; sourceTree = "<group>"; };
+		C68DAAC21485699800BBCB7F /* SocialUnifyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialUnifyAppDelegate.m; sourceTree = "<group>"; };
+		C68DAAC51485699800BBCB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C68DAAC71485699800BBCB7F /* SocialUnifyViewController.h */ = {isa = PBXFileReference; path = SocialUnifyViewController.h; sourceTree = "<group>"; };
+		C68DAAC81485699800BBCB7F /* SocialUnifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialUnifyViewController.m; sourceTree = "<group>"; };
+		C68DAACB1485699800BBCB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocialUnifyViewController.xib; sourceTree = "<group>"; };
+		C68DAAD21485699800BBCB7F /* SocialUnifyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialUnifyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68DAADA1485699800BBCB7F /* SocialUnifyTests-Info.plist */ = {isa = PBXFileReference; path = "SocialUnifyTests-Info.plist"; sourceTree = "<group>"; };
+		C68DAADC1485699800BBCB7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C68DAADE1485699800BBCB7F /* SocialUnifyTests-Prefix.pch */ = {isa = PBXFileReference; path = "SocialUnifyTests-Prefix.pch"; sourceTree = "<group>"; };
+		C68DAADF1485699800BBCB7F /* SocialUnifyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialUnifyTests.h; sourceTree = "<group>"; };
+		C68DAAE11485699800BBCB7F /* SocialUnifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialUnifyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68DAAAB1485699800BBCB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAAB31485699800BBCB7F /* UIKit.framework in Frameworks */,
+				C68DAAB51485699800BBCB7F /* Foundation.framework in Frameworks */,
+				C68DAAB71485699800BBCB7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68DAACE1485699800BBCB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAAD31485699800BBCB7F /* UIKit.framework in Frameworks */,
+				C68DAAD41485699800BBCB7F /* Foundation.framework in Frameworks */,
+				C68DAAD51485699800BBCB7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C68DAAA31485699800BBCB7F = {
+			isa = PBXGroup;
+			children = (
+				C68DAAB81485699800BBCB7F /* SocialUnify */,
+				C68DAAD81485699800BBCB7F /* SocialUnifyTests */,
+				C68DAAB11485699800BBCB7F /* Frameworks */,
+				C68DAAAF1485699800BBCB7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C68DAAAF1485699800BBCB7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAAAE1485699800BBCB7F /* SocialUnify.app */,
+				C68DAAD21485699800BBCB7F /* SocialUnifyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68DAAB11485699800BBCB7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAAB21485699800BBCB7F /* UIKit.framework */,
+				C68DAAB41485699800BBCB7F /* Foundation.framework */,
+				C68DAAB61485699800BBCB7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C68DAAB81485699800BBCB7F /* SocialUnify */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAAC11485699800BBCB7F /* SocialUnifyAppDelegate.h */,
+				C68DAAC21485699800BBCB7F /* SocialUnifyAppDelegate.m */,
+				C68DAAC41485699800BBCB7F /* MainWindow.xib */,
+				C68DAAC71485699800BBCB7F /* SocialUnifyViewController.h */,
+				C68DAAC81485699800BBCB7F /* SocialUnifyViewController.m */,
+				C68DAACA1485699800BBCB7F /* SocialUnifyViewController.xib */,
+				C68DAAB91485699800BBCB7F /* Supporting Files */,
+			);
+			path = SocialUnify;
+			sourceTree = "<group>";
+		};
+		C68DAAB91485699800BBCB7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAABA1485699800BBCB7F /* SocialUnify-Info.plist */,
+				C68DAABB1485699800BBCB7F /* InfoPlist.strings */,
+				C68DAABE1485699800BBCB7F /* SocialUnify-Prefix.pch */,
+				C68DAABF1485699800BBCB7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C68DAAD81485699800BBCB7F /* SocialUnifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAADF1485699800BBCB7F /* SocialUnifyTests.h */,
+				C68DAAE11485699800BBCB7F /* SocialUnifyTests.m */,
+				C68DAAD91485699800BBCB7F /* Supporting Files */,
+			);
+			path = SocialUnifyTests;
+			sourceTree = "<group>";
+		};
+		C68DAAD91485699800BBCB7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68DAADA1485699800BBCB7F /* SocialUnifyTests-Info.plist */,
+				C68DAADB1485699800BBCB7F /* InfoPlist.strings */,
+				C68DAADE1485699800BBCB7F /* SocialUnifyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68DAAAD1485699800BBCB7F /* SocialUnify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68DAAE51485699800BBCB7F /* Build configuration list for PBXNativeTarget "SocialUnify" */;
+			buildPhases = (
+				C68DAAAA1485699800BBCB7F /* Sources */,
+				C68DAAAB1485699800BBCB7F /* Frameworks */,
+				C68DAAAC1485699800BBCB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialUnify;
+			productName = SocialUnify;
+			productReference = C68DAAAE1485699800BBCB7F /* SocialUnify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C68DAAD11485699800BBCB7F /* SocialUnifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68DAAE81485699800BBCB7F /* Build configuration list for PBXNativeTarget "SocialUnifyTests" */;
+			buildPhases = (
+				C68DAACD1485699800BBCB7F /* Sources */,
+				C68DAACE1485699800BBCB7F /* Frameworks */,
+				C68DAACF1485699800BBCB7F /* Resources */,
+				C68DAAD01485699800BBCB7F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C68DAAD71485699800BBCB7F /* PBXTargetDependency */,
+			);
+			name = SocialUnifyTests;
+			productName = SocialUnifyTests;
+			productReference = C68DAAD21485699800BBCB7F /* SocialUnifyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68DAAA51485699800BBCB7F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C68DAAA81485699800BBCB7F /* Build configuration list for PBXProject "SocialUnify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C68DAAA31485699800BBCB7F;
+			productRefGroup = C68DAAAF1485699800BBCB7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68DAAAD1485699800BBCB7F /* SocialUnify */,
+				C68DAAD11485699800BBCB7F /* SocialUnifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68DAAAC1485699800BBCB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAABD1485699800BBCB7F /* InfoPlist.strings in Resources */,
+				C68DAAC61485699800BBCB7F /* MainWindow.xib in Resources */,
+				C68DAACC1485699800BBCB7F /* SocialUnifyViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68DAACF1485699800BBCB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAADD1485699800BBCB7F /* InfoPlist.strings in Resources */,
+				C68DAAE01485699800BBCB7F /* SocialUnifyTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C68DAAD01485699800BBCB7F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68DAAAA1485699800BBCB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAAC01485699800BBCB7F /* main.m in Sources */,
+				C68DAAC31485699800BBCB7F /* SocialUnifyAppDelegate.m in Sources */,
+				C68DAAC91485699800BBCB7F /* SocialUnifyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68DAACD1485699800BBCB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68DAAE21485699800BBCB7F /* SocialUnifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C68DAAD71485699800BBCB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C68DAAAD1485699800BBCB7F /* SocialUnify */;
+			targetProxy = C68DAAD61485699800BBCB7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C68DAABB1485699800BBCB7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DAABC1485699800BBCB7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C68DAAC41485699800BBCB7F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DAAC51485699800BBCB7F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C68DAACA1485699800BBCB7F /* SocialUnifyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DAACB1485699800BBCB7F /* en */,
+			);
+			name = SocialUnifyViewController.xib;
+			sourceTree = "<group>";
+		};
+		C68DAADB1485699800BBCB7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68DAADC1485699800BBCB7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68DAAE31485699800BBCB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C68DAAE41485699800BBCB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C68DAAE61485699800BBCB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialUnify/SocialUnify-Prefix.pch";
+				INFOPLIST_FILE = "SocialUnify/SocialUnify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C68DAAE71485699800BBCB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialUnify/SocialUnify-Prefix.pch";
+				INFOPLIST_FILE = "SocialUnify/SocialUnify-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C68DAAE91485699800BBCB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialUnify.app/SocialUnify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialUnifyTests/SocialUnifyTests-Prefix.pch";
+				INFOPLIST_FILE = "SocialUnifyTests/SocialUnifyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C68DAAEA1485699800BBCB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SocialUnify.app/SocialUnify";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialUnifyTests/SocialUnifyTests-Prefix.pch";
+				INFOPLIST_FILE = "SocialUnifyTests/SocialUnifyTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68DAAA81485699800BBCB7F /* Build configuration list for PBXProject "SocialUnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68DAAE31485699800BBCB7F /* Debug */,
+				C68DAAE41485699800BBCB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68DAAE51485699800BBCB7F /* Build configuration list for PBXNativeTarget "SocialUnify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68DAAE61485699800BBCB7F /* Debug */,
+				C68DAAE71485699800BBCB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C68DAAE81485699800BBCB7F /* Build configuration list for PBXNativeTarget "SocialUnifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68DAAE91485699800BBCB7F /* Debug */,
+				C68DAAEA1485699800BBCB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68DAAA51485699800BBCB7F /* Project object */;
+}
